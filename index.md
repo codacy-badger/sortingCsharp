@@ -8,4 +8,4 @@ Bubble, Selection
 ### Work In Progress
 Counting
 
-<link rel="icon" type="image/ico" href="https://raw.githubusercontent.com/cainy-a/sortingCsharp/master/sort.ico" />
+<link rel="icon" type="image/x-icon" href="https://raw.githubusercontent.com/cainy-a/sortingCsharp/master/sort.ico" />
