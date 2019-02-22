@@ -7,3 +7,6 @@ I have some algorithms already, but I will work on making more.
 Bubble, Selection
 ### Work In Progress
 Counting
+
+<script src="https://raw.githubusercontent.com/cainy-a/sortingCsharp/master/favicon.js">
+</script>
