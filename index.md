@@ -7,5 +7,3 @@ I have some algorithms already, but I will work on making more.
 Bubble, Selection
 ### Work In Progress
 Counting
-
-<link rel="icon" type="image/x-icon" href="https://raw.githubusercontent.com/cainy-a/sortingCsharp/master/sort.ico" />
