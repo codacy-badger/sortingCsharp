@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{A89009D4-5931-4A3A-A81B-27CF7DB0BDD4}</ProjectGuid>
+    <ProjectGuid>{45A688A9-A801-47AD-A402-5B1FCA98AD88}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>bubblesort</RootNamespace>
-    <AssemblyName>bubblesort</AssemblyName>
+    <RootNamespace>selectionsort</RootNamespace>
+    <AssemblyName>selectionsort</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
