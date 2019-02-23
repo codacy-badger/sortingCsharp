@@ -55,35 +55,15 @@ namespace bubblesort
 
         private bool insequence()
         {
-            if (numberarray[1] <= numberarray[2])
+            bool insequence = true;
+            for (int i = 1; i < numberarray.Length - 1; i++)
             {
-                if (numberarray[2] <= numberarray[3])
+                if (numberarray[i] > numberarray[i + 1])
                 {
-                    if (numberarray[3] <= numberarray[4])
-                    {
-                        if (numberarray[4] <= numberarray[5])
-                        {
-                            return true;
-                        }
-                        else
-                        {
-                            return false;
-                        }
-                    }
-                    else
-                    {
-                        return false;
-                    }
-                }
-                else
-                {
-                    return false;
+                    insequence = false;
                 }
             }
-            else
-            {
-                return false;
-            }
+            return insequence;
         }
 
         private void readvariables()
