@@ -39,66 +39,31 @@ namespace bubblesort
             numberarray[4] = ArrayIn4.Value;
             numberarray[5] = ArrayIn5.Value;
         }
-
+        
         private void bubble()
         {
-            if (numberarray[1] > numberarray[2])
+            for (int i = 1; i < numberarray.Length - 1; i++)
             {
-                swapnumber = numberarray[1];
-                numberarray[1] = numberarray[2];
-                numberarray[2] = swapnumber;
-            }
-            if (numberarray[2] > numberarray[3])
-            {
-                swapnumber = numberarray[2];
-                numberarray[2] = numberarray[3];
-                numberarray[3] = swapnumber;
-            }
-            if (numberarray[3] > numberarray[4])
-            {
-                swapnumber = numberarray[3];
-                numberarray[3] = numberarray[4];
-                numberarray[4] = swapnumber;
-            }
-            if (numberarray[4] > numberarray[5])
-            {
-                swapnumber = numberarray[4];
-                numberarray[4] = numberarray[5];
-                numberarray[5] = swapnumber;
+                if (numberarray[i] > numberarray[i + 1])
+                {
+                    swapnumber = numberarray[i];
+                    numberarray[i] = numberarray[i + 1];
+                    numberarray[i + 1] = swapnumber;
+                }
             }
         }
 
         private bool insequence()
         {
-            if (numberarray[1] <= numberarray[2])
+            bool insequence = true;
+            for (int i = 1; i < numberarray.Length - 1; i++)
             {
-                if (numberarray[2] <= numberarray[3])
+                if (numberarray[i] > numberarray[i + 1])
                 {
-                    if (numberarray[3] <= numberarray[4])
-                    {
-                        if (numberarray[4] <= numberarray[5])
-                        {
-                            return true;
-                        }
-                        else
-                        {
-                            return false;
-                        }
-                    }
-                    else
-                    {
-                        return false;
-                    }
-                }
-                else
-                {
-                    return false;
+                    insequence = false;
                 }
             }
-            else
-            {
-                return false;
-            }
+            return insequence;
         }
 
         private void readvariables()
