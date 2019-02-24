@@ -6,4 +6,4 @@ I have some algorithms already, but I will work on making more/improving existin
 ### Completed
 Bubble (w/ Improved Logic), Selection, Counting (w/ Improved Logic)
 ### Work In Progress
-Rewrite Bubble and Selection to use more efficient logic.
+Rewrite Selection to use more efficient logic.
