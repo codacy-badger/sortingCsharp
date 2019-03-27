@@ -8,3 +8,7 @@ Alternatively, use a button above to get the source code.
 Bubble (w/ Improved Logic), Selection, Counting (w/ Improved Logic)
 ### Work In Progress
 Rewrite Selection to use more efficient logic.
+
+<!--- Creative Commons Badge --->
+[![Creative Commons License](https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png)](http://creativecommons.org/licenses/by-nc-sa/4.0/)  
+This work is licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-nc-sa/4.0/)
